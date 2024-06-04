@@ -31,3 +31,4 @@
 /Volumes/Fred Passport/dotner-course-code/DotnetAPI/obj/Debug/net8.0/DotnetAPI.pdb
 /Volumes/Fred Passport/dotner-course-code/DotnetAPI/obj/Debug/net8.0/DotnetAPI.genruntimeconfig.cache
 /Volumes/Fred Passport/dotner-course-code/DotnetAPI/obj/Debug/net8.0/ref/DotnetAPI.dll
+/Volumes/Fred Passport/dotner-course-code/DotnetAPI/obj/Debug/net8.0/DotnetAPI.sourcelink.json

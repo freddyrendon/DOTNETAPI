@@ -1,6 +1,6 @@
-namespace DOTNETAPI
+namespace DOTNETAPI.Models
 {
-    public partial class Users
+    public partial class User
     {
         public int UserId { get; set; }
         public string Firstname { get; set; } = "";

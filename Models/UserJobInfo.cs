@@ -1,4 +1,4 @@
-namespace DOTNETAPI
+namespace DOTNETAPI.Models
 {
     public partial class UserJobInfo
     {

@@ -96,5 +96,24 @@ public class UserController : ControllerBase
 
     }
 
+    [HttpDelete("DeleteUser/{userId}")]
+
+    public IActionResult DeleteUser(int userId)
+    {
+
+        string sql = @"DELETE FROM TutorialAppSchema.Users WHERE Users.userId =" + userId.ToString();
+
+        Console.WriteLine(sql);
+
+        if (_dapper.ExecuteSql(sql))
+        {
+            return Ok();
+        }
+
+        throw new Exception("Fail to Delete user");
+
+
+    }
+
 
 }

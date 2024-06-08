@@ -1,3 +1,5 @@
+using DOTNETAPI.Data;
+
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
@@ -25,6 +27,8 @@ builder.Services.AddCors((options) =>
                             .AllowCredentials(); // cookies/auth
             });
 });
+
+builder.Services.AddScoped<IUserRepository, UserRepository>();
 
 var app = builder.Build();
 
